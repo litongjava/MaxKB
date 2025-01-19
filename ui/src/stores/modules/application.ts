@@ -8,7 +8,7 @@ import useUserStore from './user'
 const useApplicationStore = defineStore({
   id: 'application',
   state: () => ({
-    location: `${window.location.origin}/ui/chat/`
+    location: `${window.location.origin}/ui/#/chat/`
   }),
   actions: {
     async asyncGetAllApplication() {
